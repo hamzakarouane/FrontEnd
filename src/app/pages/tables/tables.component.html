@@ -1,0 +1,1112 @@
+<div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+  <div class="container-fluid">
+    <div class="header-body">
+      <!-- Card stats -->
+      <div class="row">
+        <div class="col-xl-3 col-lg-6">
+          <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <h5 class="card-title text-uppercase text-muted mb-0">Nombre des terrains</h5>
+                  <span class="h2 font-weight-bold mb-0">{{terrains.length}}</span>
+                </div>
+                <div class="col-auto">
+                  <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                    <i class="fas fa-chart-bar"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="mt-3 mb-0 text-muted text-sm">
+                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                <span class="text-nowrap">Since last month</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6">
+          <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <h5 class="card-title text-uppercase text-muted mb-0">Nombre de Villes</h5>
+                  <span class="h2 font-weight-bold mb-0">{{villes.length}}</span>
+                </div>
+                <div class="col-auto">
+                  <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                    <i class="fas fa-chart-pie"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="mt-3 mb-0 text-muted text-sm">
+                <span class="text-danger mr-2"><i class="fas fa-arrow-down"></i> 3.48%</span>
+                <span class="text-nowrap">Since last week</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page content -->
+<div id="main-container" class="container-fluid mt--7">
+  <!-- Table -->
+  <h1>Pure CSS Tabs With Indicator</h1>
+<div class="tabs">
+  
+  <input type="radio" id="tab1" name="tab-control" checked>
+  <input type="radio" id="tab2" name="tab-control">
+  <input type="radio" id="tab3" name="tab-control">  
+  <input type="radio" id="tab4" name="tab-control">
+  <ul>
+    <li title="Features"><label for="tab1" role="button"><svg viewBox="0 0 24 24"><path d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10H20C20,13.32 17.32,16 14,16A6,6 0 0,1 8,10A6,6 0 0,1 14,4C14.43,4 14.86,4.05 15.27,4.14L16.88,2.54C15.96,2.18 15,2 14,2M20.59,3.58L14,10.17L11.62,7.79L10.21,9.21L14,13L22,5M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82Z"/>
+</svg><br><span>Terrains</span></label></li>
+    <li title="Delivery Contents"><label for="tab2" role="button"><svg viewBox="0 0 24 24"><path d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66 3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88 20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69 22,10.96L21,11.54V16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13 2.32,11.14 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77 13.3,15.76 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z" />
+</svg><br><span>Villes</span></label></li>
+    <li title="Shipping"><label for="tab3" role="button"><svg viewBox="0 0 24 24">
+    <path d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0 18,20A3,3 0 0,0 21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5 0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1 6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1 16.5,17A1.5,1.5 0 0,1 18,15.5Z" />
+</svg><br><span>Zones</span></label></li>    <li title="Returns"><label for="tab4" role="button"><svg viewBox="0 0 24 24">
+    <path d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+</svg><br><span>Dashboard</span></label></li>
+  </ul>
+  
+  <div class="slider"><div class="indicator"></div></div>
+  <div class="content">
+    <section>
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border: radius 5px;;" >
+              <a class="navbar-brand" style="color:white;">Terrain :</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                       <a class="nav-link" (click)="onOpenModal(null,'add')">Ajouter Terrain <span class="sr-only">(current)</span></a>
+                    </li>
+                 </ul>
+                 <form class="form-inline my-2 my-lg-0">
+                    <input type="search" (ngModelChange)="searchTerrain(key.value)" ngModel #key="ngModel"
+                     name="key" id="searchName" class="form-control mr-sm-2" placeholder="Search Terrains..." required>
+                 </form>
+              </div>
+            </nav>
+            <div class="row clearfix" style="padding: 20px;">
+              <div class="col-lg-3 col-md-4 col-sm-12" *ngFor="let terrain of terrains">
+                <div class="card product_item">
+                  <div class="body">
+                    <div class="cp_img">
+                      <img
+                        src="{{terrain.image}}"
+                        alt="terrain"
+                        class="img-fluid" style="width : 230px;
+                        height : 170px;"
+                      />
+                      <div class="hover">
+                        <a
+                        (click)="onOpenModal(terrain,'edit')"
+                          class="btn btn-primary btn-sm waves-effect"
+                          ><i class="zmdi zmdi-plus" ></i
+                        >edit</a>
+                        <a
+                        (click)="onOpenModal(terrain,'info')"
+                          class="btn btn-warning btn-sm waves-effect"
+                          ><i class="zmdi zmdi-shopping-cart"></i
+                        >info</a>
+                        <a
+                        (click)="onOpenModal(terrain,'delete')"
+                          class="btn btn-danger btn-sm waves-effect"
+                          ><i class="zmdi zmdi-shopping-cart"></i
+                        >delete</a>
+                      </div>
+                    </div>
+                    <div class="product_details">
+                      <h5><a href="ec-product-detail.html">{{terrain.nom}}</a></h5>
+                      <ul class="product_price list-unstyled">
+                        <li class="old_price"><p [ngClass]="{red: terrain.etat == 'Non Résérvé',green: terrain.etat == 'Résérvé'}">{{terrain.etat}}</p></li>
+                        <li class="new_price">{{terrain.tarif}} DH</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer py-4">
+              <nav aria-label="...">
+                <ul class="pagination justify-content-end mb-0">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="javascript:void(0)" tabindex="-1">
+                      <i class="fas fa-angle-left"></i>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="javascript:void(0)">2 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="javascript:void(0)">
+                      <i class="fas fa-angle-right"></i>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section>
+          <div class="card bg-default shadow mt-5">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table
+                  datatable
+                  class="table table-bordered text-white mb-0"
+                >
+                  <thead class="bg-dark text-white">
+                    <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">Nom</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let ville of villes">
+                      <td>
+                        <div class="text-white mb-0">{{ ville.id }}</div>
+                      </td>
+                      <td>
+                        <div class="text-white mb-0">{{ ville.namee }}</div>
+                      </td>
+                      <td class="text-right">
+                        <div ngbDropdown placement="bottom-right">
+                          <a
+                            class="btn btn-sm btn-icon-only text-light"
+                            ngbDropdownToggle
+                          >
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div
+                            ngbDropdownMenu
+                            class="dropdown-menu-right dropdown-menu-arrow"
+                          >
+                            <a
+                              class="dropdown-item"
+                              (click)="onOpenModala(null, 'adda')"
+                              >Add</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              (click)="onOpenModala(ville, 'edita')"
+                              >edit</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              (click)="onOpenModala(ville, 'deletea')"
+                              >delete</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <!-- la suppression des lignes statiques-->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="card bg-default shadow mt-5">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table
+                  datatable
+                  class="table table-bordered text-white mb-0"
+                >
+                  <thead class="bg-dark text-white">
+                    <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">Nom</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="text-white mb-0">1</div>
+                      </td>
+                      <td>
+                        <div class="text-white mb-0">Massira</div>
+                      </td>
+                      <td class="text-right">
+                        <div ngbDropdown placement="bottom-right">
+                          <a
+                            class="btn btn-sm btn-icon-only text-light"
+                            ngbDropdownToggle
+                          >
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div
+                            ngbDropdownMenu
+                            class="dropdown-menu-right dropdown-menu-arrow"
+                          >
+                            <a
+                              class="dropdown-item"
+                              (click)="onOpenModala(null, 'adda')"
+                              >Add</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              >edit</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              >delete</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="text-white mb-0">2</div>
+                      </td>
+                      <td>
+                        <div class="text-white mb-0">Hy My Rachid</div>
+                      </td>
+                      <td class="text-right">
+                        <div ngbDropdown placement="bottom-right">
+                          <a
+                            class="btn btn-sm btn-icon-only text-light"
+                            ngbDropdownToggle
+                          >
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div
+                            ngbDropdownMenu
+                            class="dropdown-menu-right dropdown-menu-arrow"
+                          >
+                            <a
+                              class="dropdown-item"
+                              (click)="onOpenModala(null, 'adda')"
+                              >Add</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              >edit</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              >delete</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="text-white mb-0">3</div>
+                      </td>
+                      <td>
+                        <div class="text-white mb-0">assima</div>
+                      </td>
+                      <td class="text-right">
+                        <div ngbDropdown placement="bottom-right">
+                          <a
+                            class="btn btn-sm btn-icon-only text-light"
+                            ngbDropdownToggle
+                          >
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div
+                            ngbDropdownMenu
+                            class="dropdown-menu-right dropdown-menu-arrow"
+                          >
+                            <a
+                              class="dropdown-item"
+                              (click)="onOpenModala(null, 'adda')"
+                              >Add</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              
+                              >edit</a
+                            >
+                            <a
+                              class="dropdown-item"
+                              >delete</a
+                            >
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <!-- la suppression des lignes statiques-->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+    <section>
+      <div class="row">
+        <div class="col-xl-8 mb-5 mb-xl-0">
+          <div class="card bg-gradient-default shadow">
+            <div class="card-header bg-transparent">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h6 class="text-uppercase text-light ls-1 mb-1">Overview</h6>
+                  <h2 class="text-white mb-0">Sales value</h2>
+                </div>
+                <div class="col">
+                  <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item mr-2 mr-md-0" data-toggle="chart" data-target="#chart-sales"  (click)="data=datasets[0];updateOptions()">
+                      <a href="javascript:void(0)" class="nav-link py-2 px-3" [ngClass]="{'active':clicked===true}" data-toggle="tab" (click)="clicked=true;clicked1=false">
+                        <span class="d-none d-md-block">Month</span>
+                        <span class="d-md-none">M</span>
+                      </a>
+                    </li>
+                    <li class="nav-item" data-toggle="chart" data-target="#chart-sales"  (click)="data=datasets[1];updateOptions()">
+                      <a href="javascript:void(0)" class="nav-link py-2 px-3" [ngClass]="{'active':clicked1===true}" data-toggle="tab" (click)="clicked=false;clicked1=true">
+                        <span class="d-none d-md-block">Week</span>
+                        <span class="d-md-none">W</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <!-- Chart -->
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-sales" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="card shadow">
+            <div class="card-header bg-transparent">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
+                  <h2 class="mb-0">Total orders</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <!-- Chart -->
+              <div class="chart">
+                <canvas id="chart-orders" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </section>
+  </div>
+</div>
+  <!--section finnnnnnnnnnnnnnnnnnnnnnn-->
+</div>
+
+
+
+
+
+
+
+
+
+<!-- add terrain Modal -->
+<div class="modal fade" id="addTerrainModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!--    the form ////////////////////////////////-->
+        <form
+          role="form"
+          #addTerrain="ngForm"
+          (ngSubmit)="onAddTerrain(addTerrain)"
+        >
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="nom"
+                class="form-control"
+                placeholder="Nom"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="address"
+                class="form-control"
+                placeholder="Adresse"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-lock-circle-open"></i
+                ></span>
+              </div>
+              <select ngModel name="etat" class="form-control">
+                <option>Résérvé</option>
+                <option>Non Résérvé</option>
+
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="lat"
+                class="form-control"
+                placeholder="latitude"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="longitude"
+                class="form-control"
+                placeholder="Longitude"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="description"
+                class="form-control"
+                placeholder="Description"
+                type="text"
+              />
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-alternative mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="ni ni-email-83"></i
+                  ></span>
+                </div>
+                <input
+                  ngModel
+                  name="tarif"
+                  class="form-control"
+                  placeholder="Tarif"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-alternative">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="ni ni-lock-circle-open"></i
+                  ></span>
+                </div>
+                <select ngModel name="assurance" class="form-control">
+                  <option *ngFor="let i of villes">{{i.namee}}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="image"
+                class="form-control"
+                placeholder="Image"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="btn btn-primary mt-4"
+            >
+              Ajouter Terrain
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Edit terrain Modal -->
+<div
+  class="modal fade"
+  id="editTerrainModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">edit terrain</h1>
+        <button
+          id="editClose"
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form role="form" #editForm="ngForm">
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                type="hidden"
+                ngModel="{{ editTerrain?.id }}"
+                name="id"
+                class="form-control"
+                placeholder="id"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ editTerrain?.nom }}"
+                name="nom"
+                class="form-control"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ editTerrain?.description }}"
+                name="description"
+                class="form-control"
+                placeholder="Description"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ editTerrain?.etat }}"
+                name="etat"
+                class="form-control"
+                placeholder="Etat"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-lock-circle-open"></i
+                ></span>
+              </div>
+              <select ngModel="{{ editTerrain?.type}}" name="type" class="form-control">
+                <option>foot</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ editTerrain?.rank }}"
+                name="rank"
+                class="form-control"
+                placeholder="Rank"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ editTerrain?.sol }}"
+                name="sol"
+                class="form-control"
+                type="text" placeholder="SOL"
+              />
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              (click)="onEditTerrain(editForm.value)"
+              type="submit"
+              class="btn btn-warning mt-4"
+            >
+              Edit onEditTerrain
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Delete Modal -->
+<div
+  class="modal fade"
+  id="deleteTerrainModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Delete Terrain</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to delete {{ deleteTerrain?.nom }}?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          (click)="onDeleteTerrain(deleteTerrain?.id)"
+          type="button"
+          class="btn btn-danger"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Info terrain Modal -->
+<div
+  class="modal fade"
+  id="infoTerrainModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">info terrain</h1>
+        <button
+          id="editClose"
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form role="form" #infoForm="ngForm">
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                type="hidden"
+                ngModel="{{ infoTerrain?.id }}"
+                name="id"
+                class="form-control"
+                placeholder="id"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.nom }}"
+                name="nom"
+                class="form-control"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.description }}"
+                name="description"
+                class="form-control"
+                placeholder="Description"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.etat }}"
+                name="etat"
+                class="form-control"
+                placeholder="Etat"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-lock-circle-open"></i
+                ></span>
+              </div>
+              <select ngModel="{{ infoTerrain?.type}}" name="type" class="form-control">
+                <option>foot</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.rank }}"
+                name="rank"
+                class="form-control"
+                placeholder="Rank"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.sol }}"
+                name="sol"
+                class="form-control"
+                type="text" placeholder="SOL"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.lat }}"
+                name="lat"
+                class="form-control"
+                type="text" placeholder="latitude"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-email-83"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ infoTerrain?.longitude}}"
+                name="longitude"
+                class="form-control"
+                type="text" placeholder="longitude"
+              />
+            </div>
+          </div>
+          <div class="text-center">
+            <agm-map [latitude]="33.5731104" [longitude]="-7.5898434">
+              <agm-marker [latitude]="infoTerrain?.lat" [longitude]="infoTerrain?.longitude"></agm-marker>
+          </agm-map>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Add Modal Assurance -->
+<div
+  class="modal fade"
+  id="addModala"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+          ajouter Ville
+        </h1>
+        <button
+          id="addClosea"
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <!--    the form ////////////////////////////////-->
+        <form
+          role="form"
+          #addAssurance="ngForm"
+          (ngSubmit)="onAddAssurance(addAssurance)"
+        >
+          <div class="form-group">
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel
+                name="namee"
+                class="form-control"
+                placeholder="Ville"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              [disabled]="addAssurance.invalid"
+              type="submit"
+              class="btn btn-primary mt-4"
+            >
+              Add Facture maison
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- edit modal assurance-->
+<div
+  class="modal fade"
+  id="editModala"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Edit assurance</h1>
+        <button
+          id="editClosea"
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form role="form" #editForma="ngForm">
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                type="hidden"
+                ngModel="{{ editVille?.id }}"
+                name="id"
+                class="form-control"
+                placeholder="id"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-alternative mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="ni ni-hat-3"></i
+                ></span>
+              </div>
+              <input
+                ngModel="{{ editVille?.namee }}"
+                name="namee"
+                class="form-control"
+                placeholder="Name"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              (click)="onEditAssurance(editForma.value)"
+              type="submit"
+              class="btn btn-warning mt-4"
+            >
+              Edit Assurance
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delete assurance-->
+<div
+  class="modal fade"
+  id="deleteModala"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+          Delete Assurance
+        </h1>
+        <button
+          id="deleteClosea"
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to delete {{ deleteVille?.namee }}?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          (click)="onDeleteAssurance(deleteVille?.id)"
+          type="button"
+          class="btn btn-danger"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
